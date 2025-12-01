@@ -34,4 +34,3 @@ The code, including the code of the site itself and the code in the exercises, a
 [repo]: https://github.com/btholt/complete-intro-to-react-v9
 
 [React icons created by Pixel perfect - Flaticon](https://www.flaticon.com/free-icons/react)
-
