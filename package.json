@@ -4,6 +4,9 @@
   "description": "This is a companion repository for the [Complete Intro to React, v9][fem] course on Frontend Masters. [![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)][fem]",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
     "format": "prettier --write '**/*.{js,jsx,json,css,md,html}'",
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,6 +16,7 @@
     "url": "git+https://github.com/btholt/citr-v9-project.git"
   },
   "keywords": [],
+  "type": "module",
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -20,10 +24,23 @@
   },
   "homepage": "https://github.com/btholt/citr-v9-project#readme",
   "devDependencies": {
+    "@tanstack/eslint-plugin-query": "^5.59.7",
+    "@tanstack/react-query-devtools": "^5.59.13",
+    "@tanstack/router-devtools": "^1.65.0",
+    "@tanstack/router-generator": "^1.65.0",
+    "@tanstack/router-plugin": "^1.65.0",
+    "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^9.9.1",
     "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.37.1",
     "globals": "^15.9.0",
-    "prettier": "^3.7.3"
+    "prettier": "^3.7.3",
+    "vite": "^5.4.2"
   },
-  "type": "commonjs"
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.13",
+    "@tanstack/react-router": "^1.65.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
 }
