@@ -1,11 +1,7 @@
-## Complete Intro to React, v9 Course
-
-This is a companion repository for the [Complete Intro to React, v9][fem] course on Frontend Masters.
-[![Frontend Masters](https://static.frontendmasters.com/assets/brand/logos/full.png)][fem]
+## Complete Intro to React, v9
 
 ## About this Repository
 
-Every step of the project built throughout the course will have a folder that will be a snapshot of the current state of the project. The naming format will be `XX-<name of the lesson>` so you can get a rough idea of order and which lesson the step is coming from. In each snapshot you'll have to run `npm install` again since they are another whole copy of the project.
 
 ## Setup Instructions
 
